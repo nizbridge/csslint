@@ -899,7 +899,7 @@ Parser.prototype = function() {
                                     this.fire({
                                         type:       "error",
                                         error:      null,
-                                        message:    "Unknown @ rule: " + tokenStream.LT(0).value + ".",
+                                        message:    "222 Unknown @ rule: " + tokenStream.LT(0).value + ".",
                                         line:       tokenStream.LT(0).startLine,
                                         col:        tokenStream.LT(0).startCol
                                     });
